@@ -1,15 +1,11 @@
 ---
 layout: post
-title: "天地图之ajax&jQuery基本概念"
+title: "ajax&jQuery基本概念"
 date: 2017-04-25
-description: "天地图之ajax&jQuery基本概念"
-tag: 天地图
+description: "ajax&jQuery基本概念"
+categories: 其他
+tag: [ajax,jQuery]
 ---   
-
-# 思考
-
-- 先理解别人如何做的，再加入新的功能
-- 先将不懂的术语查清楚。
 
 ## 术语分解
 ## 什么是ajax？

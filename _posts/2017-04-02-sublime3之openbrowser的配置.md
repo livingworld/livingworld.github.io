@@ -3,7 +3,8 @@ layout: post
 title: "sublime3之openbrowser的配置"
 date: 2017-04-02
 description: "sublime3之openbrowser的配置"
-tag: 博客 
+categories: 其他
+tag: [sublime text]
 ---   
 
 ##先打开安装package的界面

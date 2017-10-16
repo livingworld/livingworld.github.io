@@ -1,16 +1,13 @@
 ---
 layout: post
-title: "My97DatePicker"
+title: "My97DatePicker使用及问题描述"
 date: 2017-04-14 
-description: "My97DatePicker"
-tag: 博客 
+description: "My97DatePicker使用及问题描述"
+categories: c#
+tag: [asp.net]
 ---   
 
-# 20170414
-
-## 关键词：My97DatePicker如何使用？
-
-都是官方的信息，但尝试了也没用。
+## My97DatePicker如何使用？
 
 ## 关键词：My97DatePicker aspx
 
@@ -21,7 +18,6 @@ tag: 博客
 - 继续github中查看该控件的使用情况。
 
 ```
-    
     <!DOCTYPE HTML>
     <html>
     <head>
@@ -59,4 +55,4 @@ tag: 博客
 
 但依然没有解决，不清楚问题的所在。
 
-- 发现路径是另一个问题，如果我直接将MyDaPicker文件放置在与aspx同目录下，则可以使用，但是假如防灾../script下时，则无法使用。
+- 发现路径是另一个问题，如果我直接将MyDaPicker文件放置在与aspx同目录下，则可以使用，但是假如../script下时，则无法使用。

@@ -3,12 +3,9 @@ layout: post
 title: "html5和js及csharp时间控件对比"
 date: 2017-04-10
 description: "html5和js及csharp时间控件对比"
-tag: 博客 
+categories: c#
+tag: [asp.net]
 ---   
-
-# 201704010 下午
-
-折腾了一天多的vs2015安装卸载等，一度终止进展，不过这会儿得开始了。
 
 ## 时间控件对比
 
@@ -104,20 +101,3 @@ tag: 博客
 
 - [asp.net时间控件之用法](http://blog.csdn.net/lishimin1012/article/details/38388987)
 - [ ASP.NET(c#) 日期选择控件的另一种实现方法](http://blog.csdn.net/gxiangzi/article/details/5827701)
-
-
-## IIS配置
-
-- 当前标识没有对"Temporary ASP.NET Files"的写访问权限的解决办法
-
-这种情况通常是因为先安装了.net Framework，然后再安装IIS服务器导致的，所以只要在IIS重新注册一遍.net Framework就可以了：
-
-在命令行中输入命令：
-    
-    C:/WINDOWS/Microsoft.NET/Framework/v2.0.50727/aspnet_regiis -i –enable
-
-
-### 参考
-
-- [win7 +IIS配置+Dreamweaver测试服务器建立+数据库连接](http://www.cnblogs.com/waynexu/archive/2013/08/12/essay_one.html)
- - [当前标识没有对"Temporary ASP.NET Files"的写访问权限的解决办法](http://www.cnblogs.com/haocool/archive/2012/11/09/2763069.html)

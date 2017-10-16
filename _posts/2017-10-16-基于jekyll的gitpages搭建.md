@@ -2,10 +2,9 @@
 layout: post
 title:  "基于jekyll的Github Pages博客配置"
 date:   2017-10-16 12:41:00 +0800
-categories: jekyll
-tags: [web, jekyll]
+categories: github
+tag: [jekyll]
 ---
-
 
 # 配置
 ## 环境配置

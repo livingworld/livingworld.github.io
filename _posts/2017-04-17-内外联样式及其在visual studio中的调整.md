@@ -1,78 +1,24 @@
 ---
 layout: post
-title: "div和table之对比"
+title: "内外联样式及其在visual studio中的调整"
 date: 2017-04-17
-description: "div和table之对比"
-tag: 博客 
+description: "div和table对比及内联外联之分"
+categories: 其他
+tag: [asp.net,html]
 ---   
 
-# 2017.04.17
+## visual studio中调整内联外联样式
+- 按照该流程：Tools -> Options -> HTML Designer -> CSS.Change the drop downs from CSS (classes) to CSS (inline styles).
 
-## 今日任务
-
-- DatePicker控件的调整，不适用js控件
-- table表格数据的呈现
-- 满足只获取并呈现数据库最后一天的数据。
-
-- 15:00-：asp.net学习
-
-## div和table之对比
-
-### 搜索关键词：
-
-- asp:table能够页面布局吗
-  - 完全可以。
-
-- How to turn off auto style (formatting) in Visual Studio？
-  - 按照该流程：Tools -> Options -> HTML Designer -> CSS.Change the drop downs from CSS (classes) to CSS (inline styles).
-
-- class和style的区别
-  - 若引用了css类，则使用class，假若没有引用类，则使用style。
-- lable和asp:label也是有区别的，我使用的控件，混杂不堪。干脆纯粹使用asp作为控件，<table>作为布局。
-
-### 搜索关键词：
-
-- aspx div ul li
-  - [HtmlGenericControl Class in ASP.Net
-
-- 参考：
-  - [html如何使ul、li在asp.net中使用](http://www.c-sharpcorner.com/UploadFile/rohatash/htmlgenericcontrol-class-in-Asp-Net/)
-
-### 搜索关键词：
-
-- div与table合理搭配？
-  - div和css是内联使用的，css在外部时，div调用采用class，内联时，则用style。
-  - div和table一样，都能够通过拖动控件，改变控件大小，style内的值也是自动变化的。
-  - 都可以用于布局。
-    - table+tr+td才能在使用css的style时拖动控件。
-    ```
-        <table  style="width:260px; height:100px">
-            <tr>
-                <td>
-
-                </td>
-            </tr>
-        </table>
-    ```
-    - div直接使用style就可以拖动控件。
-
-### 搜索关键词：table layout
-
-- [](https://developer.mozilla.org/en-US/docs/Web/CSS/table-layout)
-
-### 搜索关键词：table layout vs. Div layout
-
-- [Table Layouts vs. Div Layouts: From Hell to… Hell?](https://www.smashingmagazine.com/2009/04/from-table-hell-to-div-hell/)
-
-### 搜索关键词：内联样式vs外联样式
+### 内联样式vs外联样式
 
 #### 简要解释
 
-- 内联样式：<div style="display: none"></div>
+- 内联样式：`<div style="display: none"></div>`
 
-- 内部样式: <style></style>
+- 内部样式: `<style></style>`
 
-- 外联样式：<link href="" />
+- 外联样式：`<link href="" />`
 
 ### 详细解释
 
@@ -80,11 +26,11 @@ CSS 全称级联样式表 (Cascading Style Sheets)，在实际应用中，一般
 
 - 1. 外联式
 外联式样式表中，CSS 代码作为文件单独存放，如以 style.css 文件包含所有样式。在 HTML 中的外部级联采用 <link> 标记或者 @import 语句来引入。示例代码如下：
-
+```
     <link rel="stylesheet" href="style.css" type="text/css" /> //link 链接
     @import url("style.css"); //@import 导入
     <link> 和 @import 的异同可参考此文：CSS 外部引用中 link 与 @import 的区别。
-
+```
 - 2. 内联式
 门户网站的 CSS 代码通常采用嵌入式，即通常所说的内联方式 (Inline Style)，其使用 <style> 标记将样式定义为内部块对象。示例代码如下：
 
@@ -93,6 +39,7 @@ CSS 全称级联样式表 (Cascading Style Sheets)，在实际应用中，一般
     body{font-family:Arial,Helvetica,sans-serif;}
     -->
     </style>
+
 
 内联 CSS 可以有效减少 HTTP 请求，提升页面性能，缓解服务器压力。由于浏览器加载完 CSS 才能渲染页面，因此能防止 CSS 文件无法读取而造成页面裸奔的现象。
 

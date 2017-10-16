@@ -3,18 +3,12 @@ layout: post
 title: "sublime3之markdown preview"
 date: 2017-04-15 
 description: "sublime3之markdown preview"
-tag: 博客 
+categories: 其他
+tag: [sublime text]
 ---   
 
-# 2017.04.15
-
-## 探索
-
-本人电脑是windows8
-
-### 探索it's all text
-
-暂时未深挖it's all text，但基本功能还是会了。
+## 背景
+windows8系统
 
 ### 绑定的最佳编辑器
 

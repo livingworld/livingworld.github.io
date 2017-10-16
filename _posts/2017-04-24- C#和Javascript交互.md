@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "天地图之C#和Javascript交互"
+title: "C#和Javascript交互"
 date: 2017-04-24 
-description: "天地图之C#和Javascript交互"
-tag: 天地图
+description: "C#和Javascript交互"
+categories: c#
+tag: [asp.net,javascript]
 ---   
 
 # 20170424

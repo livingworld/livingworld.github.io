@@ -3,7 +3,8 @@ layout: post
 title: "sublime3之javascript运行配置"
 date: 2017-04-02 
 description: "sublime3之javascript运行配置"
-tag: 博客 
+categories: 其他
+tag: [sublime text]
 ---   
 
 ##Sublime Text怎么运行JavaScript Windows版

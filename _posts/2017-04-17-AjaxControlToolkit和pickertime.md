@@ -1,33 +1,16 @@
+---
+layout: post
+title: "AjaxControlToolkit和pickertime"
+date: 2017-04-14 
+description: "AjaxControlToolkit和pickertime"
+categories: c#
+tag: [asp.net]
+---
 
-# 2017.04.17
+## calender控件的使用
 
-## 今日任务
-
-- DatePicker控件的调整，不适用js控件
-- table表格数据的呈现
-- 满足只获取并呈现数据库最后一天的数据。
-
-## 9：23- 12:24：开始工作
-
-- 是否有更佳的方法替代`<asp:PlaceHolder ID = "PlaceHolder1" runat="server" />`
-
-- 与导师交流：
-  - 老师说，尽量采用asp.net控件，少用js控件，因为在vs平台中，c#脚本方便调试。
-
-## calender控件如何根据事件，启用控件。
-
-### 搜索关键词：
-
-- asp:calendar datepicker？
-- asp:calendar 弹出式控件？
-  - [asp.net 弹出式日历控件 选择日期 Calendar控件 ](http://blog.sina.com.cn/s/blog_3eec0ced01019207.html) 
-
-以下日历控件，是无法满足需求，但是可以做调整。
-
-```
-2015-11-04 asp.net 弹出式日历控件 选择日期 Calendar控件
 html代码：
-
+```
 <%@ Page Language="C#" CodeFile="calendar.aspx.cs" Inherits="calendar" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -63,8 +46,9 @@ html代码：
     </form>
 </body>
 </html>
+```
 参考代码C#部分
-
+```
 using System;
 using System.Collections;
 using System.Configuration;
@@ -99,17 +83,7 @@ public partial class calendar : System.Web.UI.Page
 }
 ```
 
-## AjaxControlToolkit.dll插件
-
-### 关键词：
-- how to use CalendarExtender?
-- How to show calender in clicking textbox in c#?
-使用AjaxControlToolkit.dll解决问题：
-
-- [AJAX Calender Extender](http://www.ychcisps.edu.hk/attachment/news/doc/1449046385cHzZL.pdf)
-- [How to use ASP.NET AJAX Calender Extender](https://www.codeproject.com/Tips/407460/How-to-use-ASP-NET-AJAX-Calender-Extender)
-
-### 代码如下：
+## AjaxControlToolkit.dll插件的使用
 
 这个代码控件只能够将时间精确到day，无法精确到hour。
 ```
@@ -163,48 +137,3 @@ public partial class calendar : System.Web.UI.Page
         calendarBehavior1.get_element().value = d.format("MM/dd/yyyy") + " "+now.format("HH:mm:ss")
     }
 ```
-
-## MyDatePicker控件的使用
-
-- .aspx
-
-```
-    <table cellpadding="0" cellspacing="0">
-                        <tr>
-                            <td width="100%">
-                                <table cellpadding="0" cellspacing="0" class="titlebar">
-                                    <tr>
-                                        <td style="font-size: 14px; height: 25px; color: White">
-                                            &nbsp;&nbsp;&nbsp;<strong>时间信息</strong>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td width="100%" align="left" style="background: url(Image/切图/leftwin-mid.png);background-repeat: repeat-y">
-                                &nbsp;&nbsp;开始时间：<input id="txtBgTime" type="text" readonly="readonly" onclick="WdatePicker({dateFmt:'yyyy-MM-dd 08:00:00',skin:'whyGreen',maxDate:'#F{$dp.$D(\'txtEdTime\',{d:-1})}'})" class="Wdate" />
-                                <!-- value="2011-04-01 08:00:00"-->
-
-                            </td>
-                        </tr>
-                        <tr>
-                            <td align="left" style="background: url(Image/切图/leftwin-mid.png); background-repeat: repeat-y">
-                                &nbsp;&nbsp;截止时间：<input id="txtEdTime" type="text" readonly="readonly" onclick="WdatePicker({dateFmt:'yyyy-MM-dd 08:00:00',skin:'whyGreen',maxDate:'%y-%M-%d'})" class="Wdate" />
-                                <!-- value="2011-04-24 08:00:00"-->
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="width: 100%; background: url(Image/切图/leftwin-foot.png); background-repeat: no-repeat;
-                height: 2px;">
-                                &nbsp;
-                            </td>
-                        </tr>
-                    </table>
-```
-
-- .js
-
-下载My97DatePicker插件，使用即可。
-
-

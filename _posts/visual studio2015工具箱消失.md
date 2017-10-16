@@ -1,21 +1,16 @@
 ﻿---
 layout: post
-title: "工具箱消失"
+title: "visual studio2015工具箱消失"
 date: 2017-04-08
-description: "工具箱消失"
+description: "visual studio2015工具箱消失"
 tag: 博客 
 ---   
 
-# 20170408
+## 问题
+- visual studio2015工具箱消失
 
-## 工具箱消失
-
-winforms：快捷键“Ctrl+Alt+X”
-
-webform：？
-
-- 尝试方法
-
+## 尝试方法
+```
 Open the "%USERPROFILE%\AppData\Local\Microsoft\VisualStudio\14.0" folder and remove all .TBD files.
 Run the Registry Editor (regedit.exe).
 Locate the following keys:
@@ -32,6 +27,8 @@ In a 64-bit Windows:
 "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\devenv" /ResetSkipPkgs /log "<my_folder>\ActivityLog.xml"
 
 Open Visual Studio – relaunch and hopefully all is good.
+```
 
-- 未解决，最终重装系统
+## 解决方法
+- 重装系统
 

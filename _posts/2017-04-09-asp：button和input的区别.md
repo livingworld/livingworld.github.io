@@ -3,27 +3,17 @@ layout: post
 title: "asp：button和input的区别"
 date: 2017-04-09 
 description: "asp：button和input的区别"
-tag: 博客 
+categories: c#
+tag: [asp.net]
 ---   
 
-# 20170409 下午
+## input runat= server和asp:button的区别?
+- 一个是`<input type= "button" runat= "server "/>`，对应System.Web.UI.HtmlControls.HtmlInputButton类 
+- 一个是`<asp:button runat= "server "> </asp:button>`对应System.Web.UI.WebControls.Button类
 
-打开修复过后的vs2015,asp控件依旧不见，不知如何调整，目前只能想办法，如何使用html控件与cs文件交互了。
-
-# Question
-
-## Ask:input runat= server和asp:button的区别?
-
-- 服务器端区别，一个是<input type= "button" runat= "server "/>，对应System.Web.UI.HtmlControls.HtmlInputButton类 
-
-- <asp:button runat= "server "> </asp:button>对应System.Web.UI.WebControls.Button类
-
-##answer:
+## answer:
 
 >One is a server control (the asp button) that when rendered on the page includes javascript that handles the postback logic, as well as being exposed to your code-behinds as a control you can address by its ID. The Html control is platform agnostic, and is rendered by your browser as just a button. That button will raise click events but will not POST your form.
-
->一个是服务器控件（asp按钮），当在页面上呈现时，包含处理回发逻辑的javascript，以及作为控件的代码隐藏，可以通过其ID来处理。 Html控件是平台不可知的，只是一个按钮被浏览器呈现。该按钮将引发点击事件，但不会POST您的表单。
-
 
 ## Ask:Difference betwen button and asp:button onclick
 

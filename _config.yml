@@ -32,9 +32,6 @@ plugins:
   - jekyll-coffeescript
   - jekyll-assets
   - another-jekyll-plugin
-tags:
-- 天地图
-- asp.net
 
 paginate: 5
 

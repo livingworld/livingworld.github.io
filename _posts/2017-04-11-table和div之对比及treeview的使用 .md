@@ -3,13 +3,13 @@ layout: post
 title: "table和div之对比及treeview的使用"
 date: 2017-04-11 
 description: "table和div之对比及treeview的使用"
-tag: 博客 
+categories: c#
+tag: [asp.net,html]
 ---   
-
-# 201704011 上午
 
 ## table/ul/div之对比
 
+## table的格式
 - table
 ```
 	<table>  #定义html表格
@@ -23,7 +23,7 @@ tag: 博客
 
 以下摘自知乎：
 
->table的定义较繁琐，有三个层级，table，tr，td，而且它的有些属性，用CSS不易控制，代码繁复混乱。ul只要两层，ul，li，他们可以随意镶套，css中可以div.ul，http://div.li这样定义属性，清楚了然。之所以单独推广div加css，不是为了装逼，用table也完全可以做到的功能，而是为了代码的简洁和样式的分离，还有清晰的代码结构。table完全可以退休，不再在网站结构上使用，只是作为表格出现在内容里。
+>table的定义较繁琐，有三个层级，table，tr，td，而且它的有些属性，用CSS不易控制，代码繁复混乱。ul只要两层，ul，li，他们可以随意镶套，css中可以div.ul,div.li这样定义属性，清楚了然。之所以单独推广div加css，不是为了装逼，用table也完全可以做到的功能，而是为了代码的简洁和样式的分离，还有清晰的代码结构。table完全可以退休，不再在网站结构上使用，只是作为表格出现在内容里。
 
 ## tree view和scroll的使用
 
@@ -57,7 +57,7 @@ tag: 博客
     </div>
 
 ## ASP.NET 4.0 TimePicker User Control
-
+- 详情参考引用
 
 ## 参考
 
