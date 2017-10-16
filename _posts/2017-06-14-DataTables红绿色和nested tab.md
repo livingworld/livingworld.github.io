@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "2017-06-14-DataTables红绿色和nested tab"
+title: "DataTables红绿色和nested tab"
 date: 2017-06-14 12:00:00 +0800
 categories: 其他
 tag: [javascript]

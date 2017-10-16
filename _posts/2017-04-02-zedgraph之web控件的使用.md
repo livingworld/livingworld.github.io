@@ -6,11 +6,10 @@ categories: c#
 tag: [asp.net]
 ---   
 
-##webforms入门
+## webforms入门
 
 ASP.NET的webforms框架和winform有高度的相似性，但在不同页面的继承上需要仔细梳理。
-
-###zedgraph控件的使用
+### zedgraph控件的使用
 
 google了许多关于zedgraph的教程，找到了一个example source，文件夹内格式如下：
 
@@ -98,7 +97,7 @@ google了许多关于zedgraph的教程，找到了一个example source，文件�
         </div>
 	</asp:Content>
 
-##参考
+## 参考
 
 - [ZedGraph使用经验](http://www.cnblogs.com/gaizai/archive/2010/02/22/1671154.html)
 - [关于zedgraph在web中的两种工作方式](http://www.cnblogs.com/xinzaitian/archive/2008/12/10/1352356.html)

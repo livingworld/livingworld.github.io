@@ -6,9 +6,7 @@ categories: c#
 tag: [asp.net,javascript]
 ---   
 
-# 20170424
 ## C#和Javascript交互
-
 在asp.net开发中，经常会用到后台和前台的交互，就此总结了一点c#和javascript相互操作的方法。
 
 ### 在后台c#代码中调用jacascript的方法
@@ -62,19 +60,4 @@ public string GetAuthStatus()
 
 ```
     document.all("button1").click();
-```
-
-## iframe的使用
-
-如何使用iframe将分支界面嵌入到主界面中，且仅是将其缩小比例尺放入？
-
-```
-<iframe id="mainFrame" name="mainFrame" runat="server" frameborder="0" scrolling="no" style="width:100%;height:50%;" src="/chap1.aspx"></iframe>  
-```
-
-iframe大小改变可以，但里面引用的外域的页面里面的flash是没办法对其进行操作。
-
-```
-<iframe src="http://www.mlwl.cc" style="zoom:50%" width="1024" height="768"></iframe>
-
 ```
