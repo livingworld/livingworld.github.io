@@ -1,7 +1,10 @@
 ---
-title: 基于jekyll的Github Pages博客配置
 layout: post
+title:  "基于jekyll的Github Pages博客配置"
+date:   2017-10-16 12:41:00 +0800
+categories: jekyll update
 ---
+
 
 # 配置
 ## 依赖环境
@@ -10,7 +13,7 @@ layout: post
 
 - 2.若未安装，windows用户前往[RubyInstallers](https://rubyinstaller.org/downloads/)，下载安装Ruby。
 - 3.Install Bundler:
-    gem install bundler
+    $ gem install bundler
     # Installs the Bundler gem
 
 ## 步骤一：创建本地博客网站仓库
@@ -36,7 +39,7 @@ layout: post
     $ bundle exec jekyll serve
 
 ## 步骤四：保持GitHub  Pages gem最新
-- bundle update github-pages or bundle update
+    $ bundle update
 
 ## 下一步：配置jekyll
 
