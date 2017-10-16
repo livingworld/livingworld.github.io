@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "table和div之对比及treeview的使用"
-date: 2017-04-11 
-description: "table和div之对比及treeview的使用"
+date: 2017-04-11  12:00:00 +0800
 categories: c#
 tag: [asp.net,html]
 ---   

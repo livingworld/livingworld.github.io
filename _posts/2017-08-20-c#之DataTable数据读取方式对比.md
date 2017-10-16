@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "c#之DataTable数据读取方式对比"
+date:   2017-08-20 12:00:00 +0800
+categories: c#
+tag: [c#]
+---   
+
 # c#之DataTable数据读取方式对比
 ## 方法一
 ```

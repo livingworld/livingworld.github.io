@@ -1,3 +1,11 @@
+---
+layout: post
+title: "c#之Jagged Arrays"
+date: 2017-08-19 12:00:00 +0800
+categories: c#
+tag: [asp.net]
+---   
+
 # Jagged Arrays 
 在将一维数组赋值给多维数组时，往往需要进行循环遍历，是否有更加的替代方案，如简单的赋值即可实现呢？在探索c#数组类型后，发现[Jagged Arrays (C# Programming Guide) | Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/jagged-arrays)数组类型能够达到想要的效果，且数组长度大小可不一致，代码如下：
 ```

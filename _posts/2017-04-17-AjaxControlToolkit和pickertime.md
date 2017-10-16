@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "AjaxControlToolkit和pickertime"
-date: 2017-04-14 
-description: "AjaxControlToolkit和pickertime"
+date: 2017-04-17  12:00:00 +0800
 categories: c#
 tag: [asp.net]
 ---

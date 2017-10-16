@@ -1,9 +1,11 @@
 ---
 layout: post
-title: ""
-date: 2017-06-03
-description: ""
-tag: echarts
+title: "openlayers2地图切换方式"
+date: 2017-06-03 12:00:00 +0800
+description: "openlayers2地图切换方式"
+categories: 其他
+tag: [天地图]
+
 ---   
 
 ## 任务

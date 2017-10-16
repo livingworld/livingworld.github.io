@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "内外联样式及其在visual studio中的调整"
-date: 2017-04-17
-description: "div和table对比及内联外联之分"
+date: 2017-04-17 12:00:00 +0800
 categories: 其他
 tag: [asp.net,html]
 ---   

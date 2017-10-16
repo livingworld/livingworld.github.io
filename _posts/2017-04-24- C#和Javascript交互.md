@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "C#和Javascript交互"
-date: 2017-04-24 
-description: "C#和Javascript交互"
+date: 2017-04-24 12:00:00 +0800 
 categories: c#
 tag: [asp.net,javascript]
 ---   

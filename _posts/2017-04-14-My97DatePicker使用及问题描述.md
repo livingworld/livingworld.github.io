@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "My97DatePicker使用及问题描述"
-date: 2017-04-14 
-description: "My97DatePicker使用及问题描述"
+date: 2017-04-14 12:00:00 +0800 
 categories: c#
 tag: [asp.net]
 ---   

@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "ajax&jQuery基本概念"
-date: 2017-04-25
-description: "ajax&jQuery基本概念"
+date: 2017-04-25 12:00:00 +0800
 categories: 其他
 tag: [ajax,jQuery]
 ---   

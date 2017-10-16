@@ -1,17 +1,10 @@
 ---
 layout: post
-title: "2017-06-16-DataTables之Nested object data"
-date: 2017-06-16
-description: "DataTables之Nested object data"
-tag: DataTables
+title: "DataTables之Nested object data"
+date: 2017-06-16 12:00:00 +0800
+categories: 其他
+tag: [javascript]
 ---
-
-## 任务
-- [ ] 合并单元格
-- [ ] 
-
-## 合并单元格
-[](http://live.datatables.net/bodanole/1/edit)
 
 ## DataTables之Nested object data (arrays)
 查看官方文档提示有正确的配置方法

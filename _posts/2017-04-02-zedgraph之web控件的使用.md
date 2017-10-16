@@ -1,8 +1,7 @@
 ﻿---
 layout: post
 title: "zedgraph之web控件的使用"
-date: 2017-04-02 
-description: "zedgraph之web控件的使用"
+date: 2017-04-02  12:00:00 +0800
 categories: c#
 tag: [asp.net]
 ---   

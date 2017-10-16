@@ -1,15 +1,10 @@
 ---
 layout: post
 title: "2017-06-14-DataTables红绿色和nested tab"
-date: 2017-06-14
-description: ""
-tag: echarts
+date: 2017-06-14 12:00:00 +0800
+categories: 其他
+tag: [javascript]
 ---
-
-## 任务
-- [x] DataTables涨落水红绿色变化
-- [ ] 
-
 
 ## DataTables红绿色
 .cs文件中，对应表替换数字为对应涨、落、平字符。

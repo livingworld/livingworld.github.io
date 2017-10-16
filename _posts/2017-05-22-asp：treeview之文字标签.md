@@ -1,15 +1,10 @@
 ---
 layout: post
-title: "asp:treeview之文字标签"
-date: 2017-05-22
-description: "asp:treeview之文字标签"
-tag: asp.net
+title: "asp：treeview之文字标签"
+date: 2017-05-22 12:00:00 +0800
+categories: c#
+tag: [asp.net]
 ---   
-
-## 任务
-- [ ]自定义右击菜单。
-- [ ]自定义若不成功，只能够暂时使用WinInfo了。
-- [ ]
 
 ### 文字标签
 

@@ -1,7 +1,7 @@
 ﻿---
 layout: post
 title: "asp：button和input的区别"
-date: 2017-04-09 
+date: 2017-04-09  12:00:00 +0800
 description: "asp：button和input的区别"
 categories: c#
 tag: [asp.net]

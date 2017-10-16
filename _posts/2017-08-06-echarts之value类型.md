@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "2017-08-01"
-date: 2017-08-01
-description: ""
-tag: echarts
+title: "echarts之value类型"
+date: 2017-08-06 12:00:00 +0800
+categories: 其他
+tag: [javascript]
 ---
 
 ## echarts

@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "2017-06-07-DataTable格式转换"
-date: 2017-06-11
-description: ""
-tag: echarts
+title: "DataTable格式转换"
+date: 2017-06-11 12:00:00 +0800
+categories: 其他
+tag: [天地图]
 ---
 
 ## datatable格式转换

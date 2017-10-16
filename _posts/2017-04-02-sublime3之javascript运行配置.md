@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "sublime3之javascript运行配置"
-date: 2017-04-02 
-description: "sublime3之javascript运行配置"
+date: 2017-04-02 12:00:00 +0800
 categories: 其他
 tag: [sublime text]
 ---   

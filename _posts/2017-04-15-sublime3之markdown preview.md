@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "sublime3之markdown preview"
-date: 2017-04-15 
-description: "sublime3之markdown preview"
+date: 2017-04-15  12:00:00 +0800
 categories: 其他
 tag: [sublime text]
 ---   
