@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Windows安装pip方法"
+date: 2018-01-26 14:00:00 +0800
+categories: 其他
+tag: []
+---   
+
 # Windows安装pip方法
 
 本文主要介绍pip在windows中的安装。
