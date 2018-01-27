@@ -1,4 +1,0 @@
-{
-   "src_dir"            :   "C:/Users/laihetao/DebugUself/6.livingworld.github.io/_drafts/images",
-   "bucket"             :   "blog"
-}
