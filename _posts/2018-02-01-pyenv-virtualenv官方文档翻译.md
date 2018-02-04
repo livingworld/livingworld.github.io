@@ -6,9 +6,9 @@ categories: 其他
 tag: []
 ---   
 
-# pyenv-virtualenv
-
 本文档翻译自官方文档[pyenv/pyenv-virtualenv: a pyenv plugin to manage virtualenv (a.k.a. python-virtualenv)](https://github.com/pyenv/pyenv-virtualenv)，英文水平有限，若有错漏之出，还望指正。
+
+# pyenv-virtualenv
 
 pyenv-virtualenv是一个[pyenv](https://github.com/pyenv/pyenv)插件，提供了在类UNIX系统上管理Python的virtualenvs和conda环境的功能。
 
